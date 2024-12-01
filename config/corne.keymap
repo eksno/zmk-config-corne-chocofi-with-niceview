@@ -105,9 +105,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp SEMICOLON      &kp COMMA         &kp PERIOD                &kp P                  &kp Y        &kp F        &kp L              &kp U             &kp Y              &kp L  &none
+&none  &kp SEMICOLON      &kp COMMA         &kp PERIOD                &kp P                  &kp Y        &kp F        &kp G              &kp C             &kp R              &kp L  &none
 &none  &weak LEFT_META A  &weak LEFT_ALT O  &shifthr LEFT_CONTROL E   &shifthr LEFT_SHIFT U  &kp I        &kp D        &shifthr RSHIFT H  &shifthr RCTRL T  &weak RIGHT_ALT N  &kp S  &none
-&none  &kp SQT            &kp Q             &kp J                     &kp K                  &kp V        &kp B        &kp M              &kp W             &kp V              &kp Z  &none
+&none  &kp SQT            &kp Q             &kp J                     &kp K                  &kp X        &kp B        &kp M              &kp W             &kp V              &kp Z  &none
                                             &hm LC(BACKSPACE) ESCAPE  &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 ENTER  &lt 1 SPACE        &save
             >;
 
