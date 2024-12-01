@@ -108,7 +108,7 @@
 &none  &kp SEMICOLON  &kp COMMA            &kp PERIOD               &kp P                  &kp Y        &kp F        &kp G              &kp C             &kp R                 &kp L  &none
 &none  &kp A          &shifthr LEFT_ALT O  &shifthr LEFT_CONTROL E  &shifthr LEFT_SHIFT U  &kp I        &kp D        &shifthr RSHIFT H  &shifthr RCTRL T  &shifthr RIGHT_ALT N  &kp S  &none
 &none  &kp SQT        &kp Q                &kp J                    &kp K                  &kp X        &kp B        &kp M              &kp W             &kp V                 &kp Z  &none
-                                           &kp ESCAPE               &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 ENTER  &lt 1 SPACE        &kp LGUI
+                                           &kp ESCAPE               &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 ENTER  &lt 1 SPACE        &lt 3 LGUI
             >;
 
             label = "home";
@@ -140,6 +140,15 @@
             >;
 
             label = "nav";
+        };
+
+        spaces {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans       &trans     &kp LG(G)  &kp LG(C)  &kp LG(R)  &kp LG(L)  &trans
+&trans  &kp LG(A)  &kp LG(O)  &kp LG(E)  &kp LG(U)  &kp LG(I)    &kp LG(D)  &kp LG(H)  &kp LG(T)  &kp LG(N)  &kp LG(S)  &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &trans     &kp LG(M)  &kp LG(W)  &trans     &trans     &trans
+                              &trans     &trans     &trans       &trans     &trans     &trans
+            >;
         };
     };
 };
